@@ -1,0 +1,320 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>My Manga Reader CMS v2.0 - guide of the new version</title>
+	
+	<meta name="description" content="Follow this guide to install or update the v2 of the script">
+	<meta name="author" content="cyberziko">
+	<meta name="copyright" content="cyberziko">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2017-12-30T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#F1F1CA;color:#554236;}
+		::-moz-selection{background:#45352C;color:#CDB380;}
+		::selection{background:#45352C;color:#CDB380;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#F77825;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #F77825, #C7611E);
+			  background-image: -ms-linear-gradient(top, #F77825, #C7611E);
+			  background-image: -webkit-gradient(linear, 0 0, 0 F77825%, from(#554236), to(#C7611E));
+			  background-image: -webkit-linear-gradient(top, #F77825, #C7611E);
+			  background-image: -o-linear-gradient(top, #F77825, #C7611E);
+			  background-image: linear-gradient(top, #F77825, #C7611E);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F77825', endColorstr='#C7611E', GradientType=0);
+			  border-color: #C7611E #C7611E #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #F77825 #F77825 #bfbfbf;
+		  background-color: #C7611E;
+		}
+		hr{border-top:1px solid #DEDEBA;border-bottom:1px solid #FFFFD6;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#554236;color:#CDB380;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #6B5344;-moz-text-shadow:1px 1px 0px #6B5344;text-shadow:1px 1px 0px #6B5344;}
+		#documenter_sidebar ul{border-top:1px solid #30251F;}
+		#documenter_sidebar ul a{border-top:1px solid #6B5344;border-bottom:1px solid #30251F;color:#F77825;}
+		#documenter_sidebar ul a:hover{background:#45352C;color:#CDB380;border-top:1px solid #45352C;}
+		#documenter_sidebar ul a.current{background:#45352C;color:#CDB380;border-top:1px solid #45352C;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-my-manga-reader-cms-v20">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#v2_install_update" title="V2 Install & Update">V2 Install & Update</a></li>
+			<li><a href="#env_variables" title="env variables">env variables</a></li>
+			<li><a href="#thanks" title="Thanks">Thanks</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright cyberziko 2017<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>My Manga Reader CMS v2.0</h1>
+	<h2>Follow this guide to install or update the v2 of the script</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 20/08/2015</li>
+	<li>latest update: 30/12/2017</li>
+	<li>by: cyberziko</li>
+	<li><a href="https://getcyberworks.com">https://getcyberworks.com</a></li>
+	<li>contact: <a href="https://codecanyon.net/user/cyberziko">https://codecanyon.net/user/cyberziko</a></li>
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="v2_install_update">
+	<div class="page-header"><h3>V2 Install & Update</h3><hr class="notop"></div>
+<h5>
+	<strong>Installation</strong></h5>
+<p>
+	the version 2.0 of the script is based on Laravel framework version 5.4, you will need to make sure your server meets the following requirements:</p>
+<ul>
+	<li>
+		PHP &gt;= 5.6.4</li>
+	<li>
+		OpenSSL PHP Extension</li>
+	<li>
+		PDO PHP Extension</li>
+	<li>
+		Mbstring PHP Extension</li>
+	<li>
+		Tokenizer PHP Extension</li>
+	<li>
+		XML PHP Extension</li>
+</ul>
+<p>
+	A verfication of thos extension will be done automatically by the script during the installation process.</p>
+<ul>
+	<li>
+		<h6>
+			<em><strong>copy files</strong></em></h6>
+	</li>
+</ul>
+<p>
+	You can follow one of thos two choices:</p>
+<ol>
+	<li>
+		mymangacms_base inside public folder</li>
+</ol>
+<p>
+	- Copy the content of the folder <strong>upload/public</strong> to your domaine folder (e.g. public_www, www, public, ...)</p>
+<p>
+	- Copy the folder&nbsp;<strong>upload/mymangacms_base</strong> to your domaine folder (e.g. public_www, www, public, ...)</p>
+<p>
+	You should have this structure :</p>
+<p><img src="assets/img/install_1.jpg"/></p>
+
+<ol start="2">
+	<li>
+		mymangacms_base in the parent folder (private area)</li>
+</ol>
+<p>
+	- Copy the content of the folder&nbsp;<strong>upload/public</strong>&nbsp;to your domaine folder (e.g. public_www, www, public, ...)</p>
+<div>
+	<p>
+		- Copy the folder&nbsp;<strong>upload/mymangacms_base</strong>&nbsp;to the parent folder of your domaine&nbsp;</p>
+	<div>
+		<p>
+			You should have this structure :</p>
+		<p><img src="assets/img/install_2.jpg"/></p>
+	</div>
+</div>
+<p>
+	after that you need to edit the index.php file, and comment or delete lines 4 &amp; 5 and uncomment lines 8 &amp; 9, like this :</p>
+<p><img src="assets/img/index.jpg"/></p>
+<p>
+	You can now start the installation by navigating to your domaine :</p>
+<p><img src="assets/img/wizard.jpg"/></p>
+<p>
+	After clicking on &quot;Start&quot; the installation will begin, and this will take upto 1m30, just be patient.</p>
+<p>
+	&nbsp;</p>
+<h5>
+	<strong>Update</strong></h5>
+<div class="alert">
+	Firstly backup your database, and don&#39;t forget to upgrade your PHP to version &gt;= 5.6</div>
+<ol>
+	<li>
+		<p>
+			Adapt the old database to the new structure:</p>
+	</li>
+</ol>
+<p>
+	execute the SQL scripts in update folder, one by one in phpmyadmin in this order :</p>
+<p>
+	01_create_new_tables.sql</p>
+<p>
+	02_migrate_structure.sql</p>
+<p>
+	03_constraints.sql (this may take a time to be executed, depending of size of data you have, you can execute each commented area separetly: ids, index &amp; constraints)</p>
+<p>
+	04_new_data.sql</p>
+<p>
+	be sure that the option &quot;Enable foreign key checks&quot; is disabled if you have it in your phpmyadmin, if you dont have this option don&#39;t worry, a similar instruction is added in scripts and you can start executing scripts.</p>
+<p><img src="assets/img/import_sql.jpg"/></p>
+<ol start="2">
+	<li>
+		<p>
+			Edit the file&nbsp;upload/mymangacms_base/.env&nbsp;</p>
+	</li>
+</ol>
+<div>
+	APP_NAME=&#39;My Manga Reader CMS&#39; &lt;-- put your website name inside quote</div>
+<div>
+	...</div>
+<div>
+	APP_URL=http://localhost&nbsp;&lt;-- your website URL</div>
+<div>
+	&nbsp;</div>
+<div>
+	and database connection here:</div>
+<div>
+	DB_HOST=localhost&nbsp; &nbsp; &nbsp;&lt;- keep localhost if database is on the same server</div>
+<div>
+	DB_PORT=3306</div>
+<div>
+	DB_DATABASE=test&nbsp; &nbsp; &nbsp;&lt;- db name</div>
+<div>
+	DB_USERNAME=root&nbsp; &nbsp;&lt;- user</div>
+<div>
+	DB_PASSWORD=pwd&nbsp; &lt;- pwd</div>
+<div>
+	&nbsp;</div>
+<div>
+	thos are the default slugs, that you edit here</div>
+<div>
+	<div>
+		ADMIN_PREFIX=admin</div>
+	<div>
+		AUTH_PREFIX=auth</div>
+	<div>
+		MANGA_SLUG=manga</div>
+	<div>
+		POST_SLUG=news</div>
+	<div>
+		&nbsp;</div>
+	<ol start="3">
+		<li>
+			Copy the file <strong>update/installed</strong> to&nbsp;<strong>upload/mymangacms_base/storage</strong></li>
+	</ol>
+</div>
+<ol start="4">
+	<li>
+		Copy files like descriped in the section above &quot;install &gt; copy files&quot;, if you choose first option rename your old&nbsp;<strong>mymangacms_base</strong> before you start copying (your website will be unavailable until you finish the copy).</li>
+</ol>
+<ol start="5">
+	<li>
+		Continue the update from dashboard:</li>
+</ol>
+<p>
+	Connect to your dashboard from this URL youdomain.com/<strong>auth/login</strong></p>
+<p>
+	Goto configuration &gt; subscription &amp; click &quot;Update&quot; button (this will update the .env file)</p>
+<p>
+	If you have other roles goto &quot;Roles&quot; and re-adapt them to the new structure.</p>
+<p>
+	If you use captcha, goto&nbsp;configuration &gt;&nbsp;general &gt; captcha tab and follow instructions.</p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="env_variables">
+	<div class="page-header"><h3>env variables</h3><hr class="notop"></div>
+<ul>
+	<li>
+		To change slugs, edit <strong>mymangacms_base/.env</strong> file :</li>
+</ul>
+<div>
+	<div>
+		ADMIN_PREFIX=admin</div>
+	<div>
+		AUTH_PREFIX=auth</div>
+	<div>
+		MANGA_SLUG=manga</div>
+	<div>
+		POST_SLUG=news</div>
+	<div>
+		&nbsp;</div>
+	<ul>
+		<li>
+			The script support the HTTP and HTTPs scheme, one last thing to do for serving images with https url, edit&nbsp;<strong>mymangacms_base/.env</strong>&nbsp;file :</li>
+	</ul>
+	<p>
+		APP_URL=<strong>http://</strong>mydomain.com</p>
+	<p>
+		or like this, to support both http &amp; https&nbsp;</p>
+	<p>
+		APP_URL=<strong>//</strong>mydomain.com</p>
+	<ul>
+		<li>
+			If you want to change your database information, edit&nbsp;<strong>mymangacms_base/.env</strong>&nbsp;file :</li>
+	</ul>
+	<div>
+		DB_CONNECTION=mysql</div>
+	<div>
+		DB_HOST=localhost</div>
+	<div>
+		DB_PORT=3306</div>
+	<div>
+		DB_DATABASE=test</div>
+	<div>
+		DB_USERNAME=root</div>
+	<div>
+		DB_PASSWORD=pwd</div>
+</div>
+<ul>
+	<li>
+		for mails, subsciption &amp; captcha confs, you must do it from dashboard.</li>
+</ul>
+</section>
+<section id="thanks">
+	<div class="page-header"><h3>Thanks</h3><hr class="notop"></div>
+<p>
+	Thank you for purchasing this application.</p>
+<p>
+	If you have any questions, suggestions, feedbacks, please feel free to email via my user page.</p>
+<p>
+	Your vote will be greatly appreciated!</p>
+<p>
+	Thanks so much! :)</p>
+</section>
+
+	</div>
+</body>
+</html>

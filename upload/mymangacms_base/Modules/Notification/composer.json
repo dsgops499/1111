@@ -1,0 +1,15 @@
+{
+    "name": "cyberziko/notification",
+    "description": "Handles notifications when creating new content: Manga, Chapters, ...",
+    "authors": [
+        {
+            "name": "CyberWorks",
+            "email": "contact@getcyberworks.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Notification\\": ""
+        }
+    }
+}

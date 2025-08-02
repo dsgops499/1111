@@ -1,0 +1,36 @@
+@extends('front.layouts.default')
+
+@section('title')
+{{$settings['seo.title']}} | {{ Lang::get('messages.front.myprofil.my-profil')}} {{$user->username}}
+@stop
+
+@include('front.themes.'.$theme.'.blocs.menu')
+
+@section('allpage')
+<div class="page-header">
+    <h3>
+        {{ Lang::get('messages.front.myprofil.my-profil')}} <small>{{$user->username}}</small>
+        @if(Sentinel::check() && Sentinel::check()->id == $user->id)
+        <a class="btn btn-sm btn-default pull-left" href="{{route('user.edit', $user->username)}}">
+            <i class="fa fa-edit"></i> {{ Lang::get('messages.front.myprofil.edit') }}
+        </a>
+        @endif
+    </h3>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-3">
+        @if($user->avatar == 1)
+        <img class="thumbnail" src='{{HelperController::avatarUrl($user->id)}}' alt='{{$user->avatar}}'>
+        @else
+        <img width="200" height="200" class="placeholder" src="{{asset('images/placeholder.png')}}" alt="avatar placeholder"/>
+        @endif
+    </div>
+    <div class="col-xs-12 col-sm-9">
+        <dl class="dl-horizontal">
+            <dt>{{ Lang::get('messages.front.myprofil.member-since') }}</dt>
+            <dd>{{ App::make("HelperController")->formateCreationDate($user->created_at) }}</dd>
+        </dl>
+    </div>
+</div>
+@stop

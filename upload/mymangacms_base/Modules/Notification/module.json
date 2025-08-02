@@ -1,0 +1,19 @@
+{
+    "name": "Notification",
+    "alias": "notification",
+    "description": "Handles notifications when creating new content: Manga, Chapters, ...",
+    "keywords": [],
+    "version": "1.0",
+    "active": 1,
+    "order": 10,
+    "providers": [
+        "Modules\\Notification\\Providers\\EventServiceProvider",
+        "Modules\\Notification\\Providers\\NotificationServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php",
+        "composers.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,99 @@
+Version 2.0 - 30/12/2017:
+	- Migration to Laravel 5.4
+	- Rewriting script to be modular. Modules can now be enabled or disabled
+	- New dashboard, sort/filter lists : manga, users, posts, ...
+	- Notification about new created manga, chapter, post & user
+	- Changing manga, admin, login & post slugs
+	- Enable/disable Google reCAPTCHA from available forms (login, register, ...)
+	- Manage pages
+	- Manage menus : sort, icons, nested, ...
+	- Theme options : adding favicon & logo, choose main & footer menus, reader theme
+	- Manage taxonomies : author/artist, tag, type & category
+	- Wizard installation
+	- Security fix
+	- Script optimization
+	- Fix bugs
+
+Version 1.9.1 - 29/06/2017:
+	- Security fix
+	- Script optimization: multi-sitemap, ...
+	- Fix bugs
+
+Version 1.9 - 03/09/2016:
+	- Choose your reader mode: reload pages/or not
+	- Choose your storage mode: Local server, Copy URLs, Google Drive
+	- Built-in comment system
+	- Adding tags to Manga + Widget
+	- Bulk chapters/pages deletion
+	- Adding Captcha to all public forms
+	- Next/Previous chapter links in reader page
+	- Show by volume in colorful theme
+	- Fix bugs
+
+Version 1.8 - 04/05/2016:
+	- Public user profil page + add avatar
+	- Advanced SEO
+	- Advanced Search (Activate in general/menu)
+	- Filter by Author & Categories from Manga Info page
+	- Add Widgets to FrontPage: Top by views, custom codes, ...
+	- Replace broken Spanish scraper
+	- Script optimization: Cache chapters (configured in settings), ...
+	- Fix bugs
+
+Version 1.7 - 04/02/2016:
+	- Notification of updated bookmarked Manga (Read documentation)
+	- Adding Articles
+	- Adding comic types & artist in Manga creation
+	- Comment system: Facebook & Disqus
+	- French & Indonisian scraper
+	- Italian Language (tnx to Araragi for the trad)
+	- Auto get info & bulk scraper for other languages
+	- Move/Re-order pages of a chapter
+	- More options (General & Manga Option Menu): show by volume, edit menu, pagination, Reader default mode
+	- latest release & news page
+	- Feed at domain.com/feed
+	- Report broken page
+	- Contact us page
+	- Script optimization: Caching & Reader (no load of all the site)
+	- Fix bugs
+
+Version 1.6 - 14/11/2015:
+	- Download all chapters at once click from mangapanda.com & mangareader.net (stop/resume options)</li>
+	- Manage Ads / Ads placement
+	- Add mangareader.net scraper
+	- Add comicvn.net (Vietnam) scraper
+	- Download chapters as ZIP from Manga Info Page
+
+Version 1.5 - 12/10/2015:
+	- Bookmarking system.
+	- Auto get Info from Mangapanda on creation process.
+	- Improve the Reader (easily navigate between chapters).
+	- Fix Bugs.
+
+Version 1.4 - 09/14/2015: 
+	- Changing Manga List (see list by image or text, filtring and sorting).
+	- Manga View Counter.
+
+Version 1.3 - 09/11/2015: 
+	- Fix Bugs.
+
+Version 1.2 - 09/09/2015:
+	- User Management System (Manage users, roles, permissions and subscription).
+	- Bulk chapters adder.
+	- Use external images source.
+	- RTL language support.
+	- Change reading mode of chapter (Page by Page / All in one Page).
+	- Flag violent content.
+	- Adding Arabic language.
+
+Version 1.1 - 08/29/2015: 
+	- Fix Bugs.
+	- Supporting more languages: French and Spanish in addition to English.
+	- Add your own language.
+	- Random Manga button.
+	- Search Manga.
+	- Automatic creation of a chapter (name and images).
+	- New source for Automatic creation for Spanish people.
+
+Version 1.0 - 08/20/2015:
+	- Initial release.

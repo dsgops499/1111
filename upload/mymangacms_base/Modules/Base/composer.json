@@ -1,0 +1,15 @@
+{
+    "name": "cyberziko/base",
+    "description": "",
+    "authors": [
+        {
+            "name": "CyberWorks",
+            "email": "contact@getcyberworks.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Base\\": ""
+        }
+    }
+}

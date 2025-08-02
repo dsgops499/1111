@@ -1,0 +1,15 @@
+{
+    "name": "cyberziko/blog",
+    "description": "Create pages and posts/articles.",
+    "authors": [
+        {
+            "name": "CyberWorks",
+            "email": "contact@getcyberworks.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Blog\\": ""
+        }
+    }
+}

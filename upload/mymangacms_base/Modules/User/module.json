@@ -1,0 +1,25 @@
+{
+    "name": "User",
+    "alias": "user",
+    "description": "Handles the authentication and authorisation as well as the user management.",
+    "keywords": [],
+    "version": "1.0",
+    "active": 1,
+    "order": 1,
+    "mandatory": 1,
+    "providers": [
+        "Modules\\User\\Providers\\EventServiceProvider",
+        "Modules\\User\\Providers\\UserServiceProvider"
+    ],
+    "aliases": {
+        "Sentinel": "Cartalyst\\Sentinel\\Laravel\\Facades\\Sentinel",
+        "Activation": "Cartalyst\\Sentinel\\Laravel\\Facades\\Activation",
+        "Reminder": "Cartalyst\\Sentinel\\Laravel\\Facades\\Reminder"
+    },
+    "files": [
+        "start.php",
+        "helpers.php",
+        "composers.php"
+    ],
+    "requires": []
+}

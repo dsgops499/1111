@@ -1,0 +1,15 @@
+{
+    "name": "cyberziko/ads",
+    "description": "Manage Ads system, by creating ads blocs and choose its placements on the site.",
+    "authors": [
+        {
+            "name": "CyberWorks",
+            "email": "contact@getcyberworks.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Ads\\": ""
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "cyberziko/user",
+    "description": "Handles the authentication and authorisation as well as the user management.",
+    "authors": [
+        {
+            "name": "CyberWorks",
+            "email": "contact@getcyberworks.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Base\\": ""
+        }
+    }
+}

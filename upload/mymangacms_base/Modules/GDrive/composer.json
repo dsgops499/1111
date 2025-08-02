@@ -1,0 +1,19 @@
+{
+    "name": "cyberziko/gdrive",
+    "description": "Upload images of the application 'my Manga Reader CMS' to your Google Drive.",
+    "authors": [
+        {
+            "name": "cyberziko",
+            "email": "contact@getcyberworks.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "google/apiclient": "1.1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GDrive\\": ""
+        }
+    }
+}

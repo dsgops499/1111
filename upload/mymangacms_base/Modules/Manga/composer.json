@@ -1,0 +1,15 @@
+{
+    "name": "cyberziko/manga",
+    "description": "Manage Manga, chapters, scrapers, features list (Hot Manga) & taxonomies (category, type, tag, artist and author)",
+    "authors": [
+        {
+            "name": "CyberWorks",
+            "email": "contact@getcyberworks.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Manga\\": ""
+        }
+    }
+}

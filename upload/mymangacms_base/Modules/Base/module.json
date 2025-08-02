@@ -1,0 +1,42 @@
+{
+    "name": "Base",
+    "alias": "base",
+    "description": "Communs functionality of the script: dashboard, menu, sidebar, ...",
+    "keywords": [],
+    "version": "1.0",
+    "active": 1,
+    "order": 0,
+    "mandatory": 1,
+    "providers": [
+        "Modules\\Base\\Providers\\EventServiceProvider",
+        "Modules\\Base\\Providers\\SidebarServiceProvider",
+        "Modules\\Base\\Providers\\BaseServiceProvider",
+        "Maatwebsite\\Sidebar\\SidebarServiceProvider",
+        "Collective\\Html\\HtmlServiceProvider",
+        "Escapeboy\\Jraty\\JratyServiceProvider",
+        "DaveJamesMiller\\Breadcrumbs\\ServiceProvider",
+        "Roumen\\Sitemap\\SitemapServiceProvider",
+        "Roumen\\Feed\\FeedServiceProvider",
+        "Yajra\\Datatables\\DatatablesServiceProvider",
+        "Yajra\\Datatables\\ButtonsServiceProvider",
+        "Anhskohbo\\NoCaptcha\\NoCaptchaServiceProvider",
+        "RachidLaasri\\LaravelInstaller\\Providers\\LaravelInstallerServiceProvider"
+    ],
+    "aliases": {
+        "HelperController": "Modules\\Base\\Supports\\HelperController",
+        "FileUploadController": "Modules\\Base\\Http\\Controllers\\FileUploadController",
+        "Form": "Collective\\Html\\FormFacade",
+        "HTML": "Collective\\Html\\HtmlFacade",
+        "Jraty": "Escapeboy\\Jraty\\Facades\\Jraty",
+        "Breadcrumbs": "DaveJamesMiller\\Breadcrumbs\\Facade",
+        "Feed": "Roumen\\Feed\\Feed",
+        "NoCaptcha": "Anhskohbo\\NoCaptcha\\Facades\\NoCaptcha",
+        "Datatables": "Yajra\\Datatables\\Facades\\Datatables"
+    },
+    "files": [
+        "start.php",
+        "helpers.php",
+        "composers.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Manga",
+    "alias": "manga",
+    "description": "Manage Manga, chapters, scrapers, features list (Hot Manga) & taxonomies (category, type, tag, artist and author)",
+    "keywords": [],
+    "version": "1.0",
+    "active": 1,
+    "order": 2,
+    "providers": [
+        "Modules\\Manga\\Providers\\EventServiceProvider",
+        "Modules\\Manga\\Providers\\MangaServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

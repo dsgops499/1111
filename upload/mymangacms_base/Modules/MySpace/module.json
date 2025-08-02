@@ -1,0 +1,17 @@
+{
+    "name": "MySpace",
+    "alias": "myspace",
+    "description": "Allow users to add comments on Manga\/chapter\/Posts, Manage their bookmarks and having a public profile",
+    "keywords": [],
+    "version": "1.0",
+    "active": 1,
+    "order": 10,
+    "providers": [
+        "Modules\\MySpace\\Providers\\MySpaceServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,17 @@
+{
+    "name": "GDrive",
+    "alias": "gdrive",
+    "description": "Upload images of the application 'my Manga Reader CMS' to your Google Drive.",
+    "keywords": [],
+    "version": "1.0",
+    "active": 1,
+    "order": 12,
+    "providers": [
+        "Modules\\GDrive\\Providers\\GDriveServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

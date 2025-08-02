@@ -1,0 +1,15 @@
+{
+    "name": "cyberziko/myspace",
+    "description": "Allow users to add comments on Manga\/chapter\/Posts, Manage their bookmarks and having a public profile",
+    "authors": [
+        {
+            "name": "CyberWorks",
+            "email": "contact@getcyberworks.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\MySpace\\": ""
+        }
+    }
+}
